@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1A1A1A12C881B6400000001 /* MacTodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A02C881B6400000001 /* MacTodoApp.swift */; };
+		A1A1A1A32C881B6400000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A22C881B6400000002 /* ContentView.swift */; };
+		A1A1A1A52C881B6600000003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A1A1A42C881B6600000003 /* Assets.xcassets */; };
+		A1A1A1A82C881B6600000004 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A1A1A72C881B6600000004 /* Preview Assets.xcassets */; };
+		A1A1A1B02C881B7400000005 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1AF2C881B7400000005 /* TodoItem.swift */; };
+		A1A1A1B22C881B7C00000006 /* TodoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1B12C881B7C00000006 /* TodoStore.swift */; };
+		A1A1A1B42C881B8C00000007 /* CalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1B32C881B8C00000007 /* CalendarManager.swift */; };
+		A1A1A1B62C881B9400000008 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1B52C881B9400000008 /* ThemeManager.swift */; };
+		A1A1A1B82C881B9C00000009 /* ThemeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1B72C881B9C00000009 /* ThemeSelectionView.swift */; };
+		A1A1A1BA2C881BA400000010 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1B92C881BA400000010 /* SettingsView.swift */; };
+		A1A1A1BC2C881BC400000011 /* IntegrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1BB2C881BC400000011 /* IntegrationManager.swift */; };
+		A1A1A1BE2C881BCC00000012 /* QuipManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1BD2C881BCC00000012 /* QuipManager.swift */; };
+		A1A1A1C02C881BD400000013 /* SlackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1BF2C881BD400000013 /* SlackManager.swift */; };
+		A1A1A1C22C881BDC00000014 /* ChorusManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1C12C881BDC00000014 /* ChorusManager.swift */; };
+		A1A1A1C42C881BE400000015 /* IntegrationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1C32C881BE400000015 /* IntegrationSettingsView.swift */; };
+		A1A1A1C62C881BEC00000016 /* UserProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1C52C881BEC00000016 /* UserProfileManager.swift */; };
+		A1A1A1C82C881BF400000017 /* MailManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1C72C881BF400000017 /* MailManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1A1A1A02C881B6400000001 /* MacTodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacTodoApp.swift; sourceTree = "<group>"; };
+		A1A1A1A22C881B6400000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1A1A1A42C881B6600000003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1A1A1A62C881B6600000011 /* MacTodoApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacTodoApp.entitlements; sourceTree = "<group>"; };
+		A1A1A1A72C881B6600000004 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1A1A1AF2C881B7400000005 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		A1A1A1B12C881B7C00000006 /* TodoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoStore.swift; sourceTree = "<group>"; };
+		A1A1A1B32C881B8C00000007 /* CalendarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarManager.swift; sourceTree = "<group>"; };
+		A1A1A1B52C881B9400000008 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		A1A1A1B72C881B9C00000009 /* ThemeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSelectionView.swift; sourceTree = "<group>"; };
+		A1A1A1B92C881BA400000010 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A1A1A1BB2C881BC400000011 /* IntegrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationManager.swift; sourceTree = "<group>"; };
+		A1A1A1BD2C881BCC00000012 /* QuipManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuipManager.swift; sourceTree = "<group>"; };
+		A1A1A1BF2C881BD400000013 /* SlackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlackManager.swift; sourceTree = "<group>"; };
+		A1A1A1C12C881BDC00000014 /* ChorusManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChorusManager.swift; sourceTree = "<group>"; };
+		A1A1A1C32C881BE400000015 /* IntegrationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationSettingsView.swift; sourceTree = "<group>"; };
+		A1A1A1C52C881BEC00000016 /* UserProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileManager.swift; sourceTree = "<group>"; };
+		A1A1A1C72C881BF400000017 /* MailManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailManager.swift; sourceTree = "<group>"; };
+		A1A1A19D2C881B6400000012 /* MacTodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacTodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1A1A19A2C881B6400000013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1A1A1942C881B6400000014 = {
+			isa = PBXGroup;
+			children = (
+				A1A1A19F2C881B6400000015 /* MacTodoApp */,
+				A1A1A19E2C881B6400000016 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1A1A19E2C881B6400000016 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1A1A19D2C881B6400000012 /* MacTodoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1A1A19F2C881B6400000015 /* MacTodoApp */ = {
+			isa = PBXGroup;
+			children = (
+				A1A1A1A02C881B6400000001 /* MacTodoApp.swift */,
+				A1A1A1A22C881B6400000002 /* ContentView.swift */,
+				A1A1A1AF2C881B7400000005 /* TodoItem.swift */,
+				A1A1A1B12C881B7C00000006 /* TodoStore.swift */,
+				A1A1A1B32C881B8C00000007 /* CalendarManager.swift */,
+				A1A1A1B52C881B9400000008 /* ThemeManager.swift */,
+				A1A1A1B72C881B9C00000009 /* ThemeSelectionView.swift */,
+				A1A1A1B92C881BA400000010 /* SettingsView.swift */,
+				A1A1A1BB2C881BC400000011 /* IntegrationManager.swift */,
+				A1A1A1BD2C881BCC00000012 /* QuipManager.swift */,
+				A1A1A1BF2C881BD400000013 /* SlackManager.swift */,
+				A1A1A1C12C881BDC00000014 /* ChorusManager.swift */,
+				A1A1A1C32C881BE400000015 /* IntegrationSettingsView.swift */,
+				A1A1A1C52C881BEC00000016 /* UserProfileManager.swift */,
+				A1A1A1C72C881BF400000017 /* MailManager.swift */,
+				A1A1A1A42C881B6600000003 /* Assets.xcassets */,
+				A1A1A1A62C881B6600000011 /* MacTodoApp.entitlements */,
+				A1A1A1AA2C881B6600000017 /* Preview Content */,
+			);
+			sourceTree = "<group>";
+		};
+		A1A1A1AA2C881B6600000017 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1A1A1A72C881B6600000004 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1A1A19C2C881B6400000018 /* MacTodoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A1A1AC2C881B6600000019 /* Build configuration list for PBXNativeTarget "MacTodoApp" */;
+			buildPhases = (
+				A1A1A1992C881B6400000020 /* Sources */,
+				A1A1A19A2C881B6400000013 /* Frameworks */,
+				A1A1A19B2C881B6400000021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacTodoApp;
+			productName = MacTodoApp;
+			productReference = A1A1A19D2C881B6400000012 /* MacTodoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1A1A1952C881B6400000022 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A1A1A19C2C881B6400000018 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = A1A1A1982C881B6400000023 /* Build configuration list for PBXProject "MacTodoApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1A1A1942C881B6400000014;
+			productRefGroup = A1A1A19E2C881B6400000016 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1A1A19C2C881B6400000018 /* MacTodoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1A1A19B2C881B6400000021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A1A1A82C881B6600000004 /* Preview Assets.xcassets in Resources */,
+				A1A1A1A52C881B6600000003 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1A1A1992C881B6400000020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A1A1A32C881B6400000002 /* ContentView.swift in Sources */,
+				A1A1A1B02C881B7400000005 /* TodoItem.swift in Sources */,
+				A1A1A1B42C881B8C00000007 /* CalendarManager.swift in Sources */,
+				A1A1A1B62C881B9400000008 /* ThemeManager.swift in Sources */,
+				A1A1A1B82C881B9C00000009 /* ThemeSelectionView.swift in Sources */,
+				A1A1A1BA2C881BA400000010 /* SettingsView.swift in Sources */,
+				A1A1A1BC2C881BC400000011 /* IntegrationManager.swift in Sources */,
+				A1A1A1BE2C881BCC00000012 /* QuipManager.swift in Sources */,
+				A1A1A1C02C881BD400000013 /* SlackManager.swift in Sources */,
+				A1A1A1C22C881BDC00000014 /* ChorusManager.swift in Sources */,
+				A1A1A1C42C881BE400000015 /* IntegrationSettingsView.swift in Sources */,
+				A1A1A1C62C881BEC00000016 /* UserProfileManager.swift in Sources */,
+				A1A1A1C82C881BF400000017 /* MailManager.swift in Sources */,
+				A1A1A1B22C881B7C00000006 /* TodoStore.swift in Sources */,
+				A1A1A1A12C881B6400000001 /* MacTodoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1A1A1AD2C881B6600000024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1A1A1AE2C881B6600000025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A1A1A1AF2C881B6600000026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacTodoApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "This app needs calendar access to sync your todos with macOS Calendar";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MacTodoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A1A1A1B02C881B6600000027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacTodoApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "This app needs calendar access to sync your todos with macOS Calendar";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MacTodoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1A1A1982C881B6400000023 /* Build configuration list for PBXProject "MacTodoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A1A1AD2C881B6600000024 /* Debug */,
+				A1A1A1AE2C881B6600000025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A1A1AC2C881B6600000019 /* Build configuration list for PBXNativeTarget "MacTodoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A1A1AF2C881B6600000026 /* Debug */,
+				A1A1A1B02C881B6600000027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1A1A1952C881B6400000022 /* Project object */;
+}
